@@ -40,7 +40,7 @@ I had came across this during one of my projects doing a head pose estimation to
 
 - The picture on the left shows the original input image, the one on the right shows the patterns being highlighted after passing through the Gabor filter bank.
 - 
-<img src="https://github.com/aceirus/GaborFilter/blob/main/pictures/gabor_elephantDemo.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
+<img src="https://github.com/aceirus/GaborFilter/blob/main/pictures/gabor_elephantDemo.jpg" width=5000 height=450 style="float: left; margin-right: 0px;" />
 
 ## Where are they used in practical real life?
 The following are useful examples but not limited to:
