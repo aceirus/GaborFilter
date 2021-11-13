@@ -49,3 +49,6 @@ The following are useful examples but not limited to:
 - Edge detection: Detecting edges in an image is a fundamental preprocessing step in many image processing work flows.
 - Retina identification: Identifying the retina of humans reliably, which is very important in security systems.
 - Image coding: Encoding of images is used almost everywhere for transmission of this information.
+
+
+images source: https://medium.com/@anuj_shah/through-the-eyes-of-gabor-filter-17d1fdb3ac97
