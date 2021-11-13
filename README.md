@@ -48,7 +48,7 @@ The following are useful examples but not limited to:
 - Object Recognition: Gabor filters and their modified versions are used extensively in computer vision systems. Since they can closely resemble the human visual system as mentioned above, they are frequently used in designing object recognition systems.
 - Edge detection: Detecting edges in an image is a fundamental preprocessing step in many image processing work flows.
 - Retina identification: Identifying the retina of humans reliably, which is very important in security systems.
-- Image coding: Encoding of images is used almost everywhere for transmission of this information.
+- Image coding: Encoding of images is used almost everywhere for ease of transmission of this information.
 
 
 *images source: https://medium.com/@anuj_shah/through-the-eyes-of-gabor-filter-17d1fdb3ac97*
