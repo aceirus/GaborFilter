@@ -14,9 +14,9 @@ I had came across this during one of my projects doing a head pose estimation to
 ## Why do we need this filter?
 - For example when you intend to detect edges from an image, these edges might be of any shapes, sizes and orientations.
 - When filters are applied to images, we basically modify each pixel in that image and extract some form of information from it.
-- Applying this rule globally to an entire image might not be efficient. This is because there are usually not only horizontal edges but also many vertical or even edges that are not sharp.
+- Applying this rule globally to an entire image might not be efficient. This is because more often than not, there are usually not only horizontal edges but also many vertical lines or even edges that might not be distinct enough.
 - To take care of this, the most direct way is to design separate filters that specialize in detecting each of the different cases.
-- Natural images usually consist of a large variety of different shapes and sizes, so this is where the Gabor filter was designed to address this issue.
+- However natural images usually consist of a large variety of different shapes and sizes, so this is where the Gabor filter was designed to address this issue.
 
 ## What is a Gabor filter?
 - Gabor filters are orientation-sensitive filters, used for edge and texture analysis.
