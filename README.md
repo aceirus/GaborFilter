@@ -6,7 +6,7 @@ I had came across this during one of my projects doing a head pose estimation to
 ## Understanding Image Filters
 - In the field of image processing, filters play a highly important role.
 - All image processing operations can be viewed as applying a series of filters to an image and transforming them to represent it in some way.
-- We do this for a varirty of reasons: 
+- We do this for a variety of reasons: 
   - understand content of images
   - detect the presence of certain features in the images
   - tranform the images into another domain
