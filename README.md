@@ -18,7 +18,7 @@ I had came across this during one of my projects doing a head pose estimation to
 - To take care of this, the most direct way is to design separate filters that specialize in detecting each of the different cases.
 - Natural images usually consist of a large variety of different shapes and sizes, so this is where the Gabor filter was desiged to address this issue.
 
-### What is a Gabor filter?
+## What is a Gabor filter?
 - Gabor filters are orientation-sensitive filters, used for edge and texture analysis.
 - It is named after Dennis Gabor, a brilliant Nobel prize winning physicist.
 - A Gabor filter can be viewed as a sinusoidal plane of particular frequency and orientation, modulated by a Gaussian wave.
@@ -27,3 +27,19 @@ I had came across this during one of my projects doing a head pose estimation to
 
 - What this basically means is that a Gabor filter is mathematically structured such that different shapes, sizes, orientations and smoothness can be taken care of.
 - A Gabor filter oriented in a particular direction gives a strong response for locations in the target images that have structures in this same orientation.
+- To put this in a simple analogy, it is similar to pouring a solidifying liquid onto a mould with unknown structure. Once it solidifies, it will look like the surface of the structure.
+
+## Why is this important?
+- Gabor Filters have received considerable attention because of the way it closely resembles the human visual system, such that the characteristics of certain cells in the visual cortex of some mammals can be approximated by these filters.
+- Humans have an uncanny ability to process visual data and distinguish things with extreme ease, unlike machines.
+- In addition, these filters have demonstrated ability to possess optimal localization properties in both spatial and frequency domains.
+- What this means is that Gabor filters will mould itself to suit different scenarios like scale, smoothness and orientation etc. of the edges in a given image.
+
+## Where are they used in practical real life?
+The following are useful examples but not limited to:
+- Texture segmentation: Separate multiple textures (textons) in an image. This analysis is critical in a lot of areas, including space exploration missions where they have to traverse unknown terrains.
+- Optical character recognition (OCR): Automatically recognize handwritten letters and numbers
+- Object Recognition: Gabor filters and their modified versions are used extensively in computer vision systems. Since they can closely resemble the human visual system as mentioned above, they are frequently used in designing object recognition systems.
+- Edge detection: Detecting edges in an image is a fundamental preprocessing step in many image processing work flows.
+- Retina identification: Identifying the retina of humans reliably, which is very important in security systems.
+- Image coding: Encoding of images is used almost everywhere for transmission of this information.
