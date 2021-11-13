@@ -23,7 +23,7 @@ I had came across this during one of my projects doing a head pose estimation to
 - It is named after Dennis Gabor, a brilliant Nobel prize winning physicist.
 - A Gabor filter can be viewed as a sinusoidal plane of particular frequency and orientation, modulated by a Gaussian wave.
 
-<img src="https://github.com/aceirus/GaborFilter/pictures/gabor1.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
+<img src="https://github.com/aceirus/GaborFilter/blob/main/pictures/gabor1.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
 
 - What this basically means is that a Gabor filter is mathematically structured such that different shapes, sizes, orientations and smoothness can be taken care of.
 - A Gabor filter oriented in a particular direction gives a strong response for locations in the target images that have structures in this same orientation.
