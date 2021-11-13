@@ -16,7 +16,7 @@ I had came across this during one of my projects doing a head pose estimation to
 - When filters are applied to images, we basically modify each pixel in that image and extract some form of information from it.
 - Applying this rule globally to an entire image might not be efficient. This is because there are usually not only horizontal edges but also many vertical or even edges that are not sharp.
 - To take care of this, the most direct way is to design separate filters that specialize in detecting each of the different cases.
-- Natural images usually consist of a large variety of different shapes and sizes, so this is where the Gabor filter was desiged to address this issue.
+- Natural images usually consist of a large variety of different shapes and sizes, so this is where the Gabor filter was designed to address this issue.
 
 ## What is a Gabor filter?
 - Gabor filters are orientation-sensitive filters, used for edge and texture analysis.
