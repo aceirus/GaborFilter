@@ -27,7 +27,7 @@ I had came across this during one of my projects doing a head pose estimation to
 
 - What this basically means is that a Gabor filter is mathematically structured such that different shapes, sizes, orientations and smoothness can be taken care of.
 - A Gabor filter oriented in a particular direction gives a strong response for locations in the target images that have structures in this same orientation.
-- To put this in a simple analogy, it is similar to pouring a solidifying liquid onto a mould with unknown structure. Once it solidifies, it will look like the surface of the structure.
+- To put this in a simple analogy, it is similar to pouring a solidifying liquid onto a mould with unknown structure. Once it solidifies, it will take after the surface shape of the structure.
 
 ## Why is this important?
 - Gabor Filters have received considerable attention because of the way it closely resembles the human visual system, such that the characteristics of certain cells in the visual cortex of some mammals can be approximated by these filters.
