@@ -36,7 +36,7 @@ I had came across this during one of my projects doing a head pose estimation to
 - What this means is that Gabor filters will mould itself to suit different scenarios like scale, smoothness and orientation etc. of the edges in a given image.
 - Consider an example of an elephant in an image, where it has multiple patterns on its skin in different orientation. In order to highlight all these patterns, we extract these by passing a bank of 16 Gabor filters orientated at 16 different angles.
 
-<img src="https://github.com/aceirus/GaborFilter/blob/main/pictures/gabor16bank.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
+<img src="https://github.com/aceirus/GaborFilter/blob/main/pictures/gabor16bank.jpg" width=604 height=523 style="float: left; margin-right: 0px;" />
 
 - In the picture below, on the left shows the original input image, while the one on the right shows the patterns on the elephant being highlighted after passing through the Gabor filter bank.
 <img src="https://github.com/aceirus/GaborFilter/blob/main/pictures/gabor_elephantDemo.jpg" width=1020 height=372 style="float: left; margin-right: 0px;" />
