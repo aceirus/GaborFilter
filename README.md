@@ -34,6 +34,13 @@ I had came across this during one of my projects doing a head pose estimation to
 - Humans have an uncanny ability to process visual data and distinguish things with extreme ease, unlike machines.
 - In addition, these filters have demonstrated ability to possess optimal localization properties in both spatial and frequency domains.
 - What this means is that Gabor filters will mould itself to suit different scenarios like scale, smoothness and orientation etc. of the edges in a given image.
+- Consider an example of an elephant in an image, where it has multiple patterns on its skin in different orientation. In order to highlight all these patterns, we extract these by passing a bank of 16 Gabor filters orientated at 16 different angles.
+
+<img src="https://github.com/aceirus/GaborFilter/sourcePictures/gabor16bank.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
+
+- The picture on the left shows the original input image, the one on the right shows the patterns being highlighted after passing through the Gabor filter bank.
+- 
+<img src="https://github.com/aceirus/GaborFilter/sourcePictures/gabor_elephantDemo.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
 
 ## Where are they used in practical real life?
 The following are useful examples but not limited to:
