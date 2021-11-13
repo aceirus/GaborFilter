@@ -51,4 +51,4 @@ The following are useful examples but not limited to:
 - Image coding: Encoding of images is used almost everywhere for transmission of this information.
 
 
-* images source: https://medium.com/@anuj_shah/through-the-eyes-of-gabor-filter-17d1fdb3ac97 *
+*images source: https://medium.com/@anuj_shah/through-the-eyes-of-gabor-filter-17d1fdb3ac97*
