@@ -23,7 +23,7 @@ I had came across this during one of my projects doing a head pose estimation to
 - It is named after Dennis Gabor, a brilliant Nobel prize winning physicist.
 - A Gabor filter can be viewed as a sinusoidal plane of particular frequency and orientation, modulated by a Gaussian wave.
 
-<img src="https://github.com/aceirus/GaborFilter/sourcePictures/gabor1.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
+<img src="https://github.com/aceirus/GaborFilter/pictures/gabor1.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
 
 - What this basically means is that a Gabor filter is mathematically structured such that different shapes, sizes, orientations and smoothness can be taken care of.
 - A Gabor filter oriented in a particular direction gives a strong response for locations in the target images that have structures in this same orientation.
@@ -36,11 +36,11 @@ I had came across this during one of my projects doing a head pose estimation to
 - What this means is that Gabor filters will mould itself to suit different scenarios like scale, smoothness and orientation etc. of the edges in a given image.
 - Consider an example of an elephant in an image, where it has multiple patterns on its skin in different orientation. In order to highlight all these patterns, we extract these by passing a bank of 16 Gabor filters orientated at 16 different angles.
 
-<img src="https://github.com/aceirus/GaborFilter/sourcePictures/gabor16bank.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
+<img src="https://github.com/aceirus/GaborFilter/pictures/gabor16bank.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
 
 - The picture on the left shows the original input image, the one on the right shows the patterns being highlighted after passing through the Gabor filter bank.
 - 
-<img src="https://github.com/aceirus/GaborFilter/sourcePictures/gabor_elephantDemo.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
+<img src="https://github.com/aceirus/GaborFilter/pictures/gabor_elephantDemo.jpg" width=360 height=449 style="float: left; margin-right: 0px;" />
 
 ## Where are they used in practical real life?
 The following are useful examples but not limited to:
