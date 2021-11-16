@@ -32,7 +32,7 @@ I had came across this during one of my projects doing a head pose estimation to
 ## Why is this important?
 - Gabor Filters have received considerable attention because of the way it closely resembles the human visual system, such that the characteristics of certain cells in the visual cortex of some mammals can be approximated by these filters.
 - Humans have an uncanny ability to process visual data and distinguish things with extreme ease, unlike machines.
-- In addition, these filters have demonstrated ability to possess optimal localization properties in both spatial and frequency domains.
+- In addition, these filters have demonstrated the ability to possess optimal localization properties in both spatial and frequency domains.
 - What this means is that Gabor filters will mould itself to suit different scenarios like scale, smoothness and orientation etc. of the edges in a given image.
 - Consider an example of an elephant in an image, where it has multiple patterns on its skin in different orientation. In order to highlight all these patterns, we extract these by passing a bank of 16 Gabor filters orientated at 16 different angles.
 
